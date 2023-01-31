@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>
+      Hello API Example
+    </title>
+    <script lang="javascript">
+      fetch("/api/hello")
+        .then((res) => res.text())
+        .then((text) => {
+          document.getElementById("api-response").innerHTML = text;
+      });
+    </script>
+  </head>
+  <body>
+    <p>Response from /api/hello: <span id="api-response"></span></p>
+  </body>
+</html>
