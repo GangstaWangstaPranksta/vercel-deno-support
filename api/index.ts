@@ -1,3 +1,5 @@
+#!/usr/bin/env DENO_DIR=/tmp PUPPETEER_PRODUCT=chrome deno run --unstable https://deno.land/x/puppeteer@16.2.0/install.ts
+
 import puppeteer from "https://deno.land/x/puppeteer@16.2.0/mod.ts";
 import { ServerRequest } from "https://deno.land/std@0.58.0/http/server.ts";
 
